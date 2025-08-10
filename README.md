@@ -47,13 +47,13 @@ A simple REST API built with Flask for managing users in in-memory storage (list
 
 ## ▶️ How to Run
 
-# Install Flask
+### Install Flask
 pip install flask
 
-# Run the app
+### Run the app
 python app.py
 
-# open endpiont file ** user_api.http **  and send request..
+### open endpiont file ** user_api.http **  and send request..
 user_api.http
 
 ---
