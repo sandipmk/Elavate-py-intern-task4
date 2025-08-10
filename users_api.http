@@ -1,0 +1,35 @@
+### GET all users
+GET http://127.0.0.1:5000/users
+
+###
+
+### GET single user
+GET http://127.0.0.1:5000/users/1
+
+###
+
+### POST - Create new user
+POST http://127.0.0.1:5000/users
+Content-Type: application/json
+
+{
+  "name": "Priya",
+  "email": "priya@example.com"
+}
+
+###
+
+### PUT - Update user
+PUT http://127.0.0.1:5000/users/1
+Content-Type: application/json
+
+{
+  "name": "Priya Singh",
+  "email": "priyasingh@example.com"
+}
+
+###
+
+### DELETE - Remove user
+DELETE http://127.0.0.1:5000/users/3
+
