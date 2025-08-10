@@ -28,19 +28,19 @@ A simple REST API built with Flask for managing users in in-memory storage (list
 
 3. CRUD Endpoints
 
-  - GET: Fetch all or specific users using Python list filtering.
+   - GET: Fetch all or specific users using Python list filtering.
 
-  - POST: Generate new id dynamically, append to list.
+   - POST: Generate new id dynamically, append to list.
 
-  - PUT: Find user by ID, update fields if provided.
+   - PUT: Find user by ID, update fields if provided.
 
-  - DELETE: Remove user by filtering list.
+   - DELETE: Remove user by filtering list.
 
 4. Error Handling
 
-  - Returned "User not found" with HTTP 404 when ID is missing.
+   - Returned "User not found" with HTTP 404 when ID is missing.
 
-  - Used proper HTTP status codes (201, 204, etc.).
+   - Used proper HTTP status codes (201, 204, etc.).
 
 
 ---
